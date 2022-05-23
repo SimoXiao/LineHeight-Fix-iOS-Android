@@ -1,27 +1,42 @@
-# **3.「Fin字高修复神器」使用方式**
+## 「Fin字高修复神器」技术使用指南**
 
-**「一款手残党也能快速领悟并上手的插件，不接受反驳👀」**
+🔨一个宗旨，让设计标注所见即所写，完整demo示例可参考：https://github.com/SimoXiao/LineHeight-Fix-iOS-Android
 
-### **3.1 插件安装与打开**
+### iOS端，在描述iOS文本框时请引用如下UI Label代码：
 
-- **Step1:** 进入Figma，点击「community/社区」并输入关键词「字高修复神器」查找。（附图1：步骤图）
-- **Step2:** 点击「Plugins-插件」对应「Install/安装」按钮，即可安装该插件。（附图2：步骤图）
-- **Step3:** 点击Figma顶部导航栏中「Plugins/插件」中「字高修复神器」，即插件打开。（附图3：步骤图）
+```objectivec
+#import <NEUIKit/UILabel+NEDolphinText.h>
+UILabel *label = [UILabel new];
+// 设置字号为14
+UIFont *font = [UIFont systemFontOfSize:14];
+// 设置字体、文字内容、视觉要求行高
+[label ne_dolphin_setTextWithFont:font text:@"测试文案" lineHeight:16];
+```
 
-### **3.2 插件功能介绍**
+### Android端，在描述Android文本框时请引用如下textview代码：
 
-字高修复神器涉及两个核心功能。
+```jsx
+方法1： 文本包装span修改字体属性 - 建议
+android:includeFontPadding="false"
+单行标准行高 // 内容 + 字号 + 字号单位
+setText(warpStandardHeightSpan("ceshi", 15 , TypedValue.COMPLEX_UNIT_DIP))
+多行指定行高 // 内容 + 指定行高
+setText(warpFixHeightSpan("ceshi" , 300))
 
-- 功能一：行高修复神器：主要修复在设计稿中「Frame/画板」内的所有单行行高问题。
-    
-    ![1.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/491ea0ff-f64c-497d-81b4-bfe9bd4404b1/1.png)
-    
-- 功能二：多行行高计算器：重点解决在设计稿中存在的一些多行行高问题。
-    
-    ![2.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cb61b948-4973-4d41-944a-edb3a67165df/2.png)
-    
+方法2：自定义组件
+<com.netease.cloudmusic.core.dolphin.component.text.DolphinTextView
+    android:textSize="14dp"      // 设置字体大小
+    app:dolphinText="文本内容"   // 设置文本内容
+    app:dolphinLineHeight="24dp"   // 设置行高 （仅多行文本需要）
+ />
+```
 
-### **3.3 插件使用方式**
+### React Native端，在描述React Native侧的文本框时请引用如下代码：
 
-- 设计师在交付给开发前，只需选择想要修复的Frame或Text后点击「Auto Fix/自动修复」，同时底部会出现“Fix Success/修复成功”的提示信息说明你选择的Frame或Text内的所有单行行高修复已完成。（附Gif图）
-- 对于多行行高需单独进行调整，对此，我们提供了一些通用倍数供设计师自主选择。设计师只需选择自己想要的倍数后点击「Set/设置」并出现修复成功提示信息, 完成多行修复操作。（附Gif图）
+```tsx
+{/*lineHeight即视觉稿行高 */}
+<Text style={{ fontSize: 12, lineHeight: 14 }}>
+       文本内容
+ </Text>
+
+```

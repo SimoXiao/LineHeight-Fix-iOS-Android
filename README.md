@@ -1,4 +1,4 @@
-## 「Fin字高修复神器」技术使用指南
+# 技术使用指南
 
 🔨一个宗旨，让设计标注所见即所写（完整demo示例可参考：👆🏻👆🏻）
 
@@ -40,6 +40,6 @@ setText(warpFixHeightSpan("ceshi" , 300))
  </Text>
 
 ```
-## 项目成员
+# 项目成员
 
 [Simo](https://github.com/SimoXiao)

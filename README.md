@@ -12,7 +12,7 @@ UIFont *font = [UIFont systemFontOfSize:14];
 // 设置字体、文字内容、视觉要求行高
 [label ne_dolphin_setTextWithFont:font text:@"测试文案" lineHeight:14];
 ```
----
+
 ### Android端，在描述Android文本框时请引用如下textview代码：
 
 ```jsx
@@ -30,7 +30,7 @@ setText(warpFixHeightSpan("ceshi" , 300))
     app:dolphinLineHeight="18dp"   // 设置1.5倍行高 （仅多行文本需要）
  />
 ```
----
+
 ### React Native端，在描述React Native侧的文本框时请引用如下代码：
 
 ```tsx
@@ -40,5 +40,6 @@ setText(warpFixHeightSpan("ceshi" , 300))
  </Text>
 
 ```
-### 项目成员
-成员 
+## 项目成员
+
+[Simo](https://github.com/SimoXiao)

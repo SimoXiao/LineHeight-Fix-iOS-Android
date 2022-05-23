@@ -1,7 +1,7 @@
 ## 「Fin字高修复神器」技术使用指南**
 
 🔨一个宗旨，让设计标注所见即所写，完整demo示例可参考：https://github.com/SimoXiao/LineHeight-Fix-iOS-Android
-
+---
 ### iOS端，在描述iOS文本框时请引用如下UI Label代码：
 
 ```objectivec
@@ -12,7 +12,7 @@ UIFont *font = [UIFont systemFontOfSize:14];
 // 设置字体、文字内容、视觉要求行高
 [label ne_dolphin_setTextWithFont:font text:@"测试文案" lineHeight:16];
 ```
-
+---
 ### Android端，在描述Android文本框时请引用如下textview代码：
 
 ```jsx
@@ -30,7 +30,7 @@ setText(warpFixHeightSpan("ceshi" , 300))
     app:dolphinLineHeight="24dp"   // 设置行高 （仅多行文本需要）
  />
 ```
-
+---
 ### React Native端，在描述React Native侧的文本框时请引用如下代码：
 
 ```tsx

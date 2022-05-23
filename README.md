@@ -1,6 +1,6 @@
 ## 「Fin字高修复神器」技术使用指南
 
-🔨一个宗旨，让设计标注所见即所写，完整demo示例可参考：https://github.com/SimoXiao/LineHeight-Fix-iOS-Android
+🔨一个宗旨，让设计标注所见即所写（完整demo示例可参考：👆🏻👆🏻）
 
 ### iOS端，在描述iOS文本框时请引用如下UI Label代码：
 

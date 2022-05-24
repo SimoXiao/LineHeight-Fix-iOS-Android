@@ -1,5 +1,8 @@
 # 技术使用指南
 
+
+[![jaywcjlove/sb](https://jaywcjlove.github.io/sb/ico/awesome.svg)](https://github.com/jaywcjlove/awesome-mac)
+
 🔨一个宗旨，让设计标注所见即所写（完整demo示例可参考：👆🏻👆🏻）
 
 ### iOS端，在描述iOS文本框时请引用如下UI Label代码：
@@ -8,7 +11,7 @@
 #import <NEUIKit/UILabel+NEDolphinText.h>
 UILabel *label = [UILabel new];
 // 设置字号为12
-UIFont *font = [UIFont systemFontOfSize:14];
+UIFont *font = [UIFont fontWithName:@"PingFangSC-Regular" size:12.f]
 // 设置字体、文字内容、视觉要求行高
 [label ne_dolphin_setTextWithFont:font text:@"测试文案" lineHeight:14];
 ```
@@ -20,14 +23,14 @@ UIFont *font = [UIFont systemFontOfSize:14];
 android:includeFontPadding="false"
 单行标准行高 // 内容 + 字号 + 字号单位
 setText(warpStandardHeightSpan("ceshi", 12 , TypedValue.COMPLEX_UNIT_DIP))
-多行指定行高 // 内容 + 指定行高
-setText(warpFixHeightSpan("ceshi" , 300))
+多行指定行高 // 内容 + 设计稿指定1.5倍行高
+setText(warpFixHeightSpan("ceshi" , 18))
 
 方法2：自定义组件
 <com.netease.cloudmusic.core.dolphin.component.text.DolphinTextView
     android:textSize="12dp"      // 设置字体大小
     app:dolphinText="文本内容"   // 设置文本内容
-    app:dolphinLineHeight="18dp"   // 设置1.5倍行高 （仅多行文本需要）
+    app:dolphinLineHeight="18dp"   // 设置行高 （仅多行文本需要）
  />
 ```
 

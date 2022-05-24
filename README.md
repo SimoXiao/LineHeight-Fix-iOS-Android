@@ -1,8 +1,5 @@
 # 技术使用指南
 
-
-[![jaywcjlove/sb](https://jaywcjlove.github.io/sb/ico/awesome.svg)](https://github.com/jaywcjlove/awesome-mac)
-
 🔨一个宗旨，让设计标注所见即所写（完整demo示例可参考：👆🏻👆🏻）
 
 ### iOS端，在描述iOS文本框时请引用如下UI Label代码：

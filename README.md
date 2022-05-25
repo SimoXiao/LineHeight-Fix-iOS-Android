@@ -42,4 +42,4 @@ setText(warpFixHeightSpan("ceshi" , 18))
 ```
 # 项目成员
 
-[Simo](https://github.com/SimoXiao)、[zhouxianyu](https://github.com/zhouxianyu)、
+[zhouxianyu](https://github.com/zhouxianyu)、[Simo](https://github.com/SimoXiao)、

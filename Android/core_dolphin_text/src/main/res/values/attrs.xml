@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FixHeightTextView">
+        <attr name="fixContent" format="string" />
+        <attr name="fixLineHeight" format="dimension" />
+    </declare-styleable>
+
+</resources>

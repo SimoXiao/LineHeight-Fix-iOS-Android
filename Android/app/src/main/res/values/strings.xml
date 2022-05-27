@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">LineHeightFix</string>
+    <string name="demo_text_title">Demo示例：以下所有元素纵向间距均为10pt</string>
+    <string name="demo_text_end">左侧请用传统的方式写，右侧用我们新的方式画板统一：375*812</string>
+    <string name="demo_text_1">这是单行16号字</string>
+    <string name="demo_text_2">这是多行14号字，\n1.5倍行高</string>
+    <string name="demo_text_3">这是单行12号字</string>
+
 </resources>

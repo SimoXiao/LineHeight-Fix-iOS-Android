@@ -71,6 +71,14 @@
                 android:layout_marginTop="10dp"
                 android:background="@color/view_red" />
 
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="未修复前"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp" />
+
 
         </LinearLayout>
 
@@ -124,6 +132,16 @@
                 android:layout_marginTop="10dp"
                 android:background="@color/view_red"
                 android:textColor="#000000" />
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="修复后"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp" />
+
 
         </LinearLayout>
 

@@ -6,7 +6,7 @@
 
 # 技术使用指南
 
-### 🔨一个宗旨，让字高所见即所写（完整Demo按端查阅：👆🏻👆🏻 ）    
+### 🔨一个宗旨，让字高所见即所写（完整Demo按各端查阅：👆🏻👆🏻 ）    
 具体 [Demo效果图](https://user-images.githubusercontent.com/19188214/170270296-4fc8bb93-6970-4a91-a87c-14b2f85efb81.png)
 
 ### iOS端，在描述iOS文本框时请引用如下UI Label代码：

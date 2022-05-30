@@ -31,10 +31,10 @@ setText(warpStandardHeightSpan("ceshi", 12 , TypedValue.COMPLEX_UNIT_DIP))
 setText(warpFixHeightSpan("ceshi" , 18))
 
 方法2：自定义组件
-<com.netease.cloudmusic.core.dolphin.component.text.DolphinTextView
+<com.netease.cloudmusic.dolphin.core_dolphin_text.FixHeightTextView
     android:textSize="12dp"      // 设置字体大小
-    app:dolphinText="文本内容"   // 设置文本内容
-    app:dolphinLineHeight="18dp"   // 设置行高 （仅多行文本需要）
+    app:fixContent="文本内容"   // 设置文本内容
+    app:fixLineHeight="18dp"   // 设置行高 （仅多行文本需要）
  />
 ```
 

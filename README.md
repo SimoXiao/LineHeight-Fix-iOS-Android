@@ -49,4 +49,8 @@ setText(warpFixHeightSpan("ceshi" , 18))
 ```
 # 项目成员
 
-[zhouxianyu](https://github.com/zhouxianyu)、 [Suo](https://github.com/suoyuesmile)、 [Simo](https://github.com/SimoXiao)
+网易云音乐Dolphin项目组
+
+🛰公众号：网易云音乐MDC or 网易云音乐技术团队
+
+贡献者：[zhouxianyu](https://github.com/zhouxianyu)、 [Suo](https://github.com/suoyuesmile)、 [Simo](https://github.com/SimoXiao)

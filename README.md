@@ -17,7 +17,7 @@ UILabel *label = [UILabel new];
 // 设置字号为12
 UIFont *font = [UIFont fontWithName:@"PingFangSC-Regular" size:12.f]
 // 设置字体、文字内容、视觉要求行高
-[label ne_dolphin_setTextWithFont:font text:@"测试文案" lineHeight:14];
+[label ne_dolphin_setTextWithFont:font text:@"测试文案" lineHeight:17];
 ```
 
 ### Android端，在描述Android文本框时请引用如下textview代码：
@@ -42,7 +42,7 @@ setText(warpFixHeightSpan("ceshi" , 18))
 
 ```tsx
 {/*lineHeight即视觉稿行高 */}
-<Text style={{ fontSize: 12, lineHeight: 14 }}>
+<Text style={{ fontSize: 12, lineHeight: 17 }}>
        文本内容
  </Text>
 

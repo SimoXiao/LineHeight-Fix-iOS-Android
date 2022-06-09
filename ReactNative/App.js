@@ -20,7 +20,7 @@ const App = () => {
         style={{
           ...props.style,
           lineHeight: Math.round(
-            props.style.fontSize * (props.multiple ? 1.5 : 1.193359),
+            props.style.fontSize * (props.multiple ? 1.5 : 1.4),
           ),
         }}
       />

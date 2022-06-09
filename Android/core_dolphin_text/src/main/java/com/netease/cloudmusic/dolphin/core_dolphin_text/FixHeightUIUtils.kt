@@ -8,7 +8,7 @@ import android.util.DisplayMetrics
 import android.util.TypedValue
 import kotlin.math.roundToInt
 
-const val TEXT_HEIGHT_RATIO = 1.193359
+const val TEXT_HEIGHT_RATIO = 1.4
 
 /**
  * 设置标准的单行行高

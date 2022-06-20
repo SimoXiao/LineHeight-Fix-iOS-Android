@@ -13,10 +13,12 @@
 ```objectivec
 #import <NEUIKit/UILabel+NEDolphinText.h>
 UILabel *label = [UILabel new];
-// 设置字号为12
-UIFont *font = [UIFont fontWithName:@"PingFangSC-Regular" size:12.f]
-// 设置字体、文字内容、视觉要求行高
-[label ne_dolphin_setTextWithFont:font text:@"测试文案" lineHeight:17];
+// 视觉稿要求字号为12
+UIFont *font = [UIFont fontWithName:@"PingFangSC-Regular" size:12.f];
+// 不指定行高用法：设置字体、文字内容，行高默认为字体行高四舍五入后的值
+[label ne_dolphin_setTextWithFont:font text:@"测试文案"];
+// 指定行高用法：设置字体、文字内容、1.5倍行高
+[label ne_dolphin_setTextWithFont:font text:@"测试文案" lineHeight:18];
 ```
 
 ### Android端，在描述Android文本框时请引用如下textview代码：
